@@ -13,7 +13,7 @@
 
 ## "Use" necessário para usar a biblioteca:
 ```php
-    use SimpleCrawler/Crawler;
+    use SimpleCrawler\Crawler;
 ```
 
 ## O que você tem que saber para usar essa biblioteca:
