@@ -51,6 +51,6 @@
         $crawler = new Crawler("https://www.climatempo.com.br/previsao-do-tempo/cidade/406/bauru-sp");
         $crawler->setRule("//span[@id='min-temp-1']");
         $crawler->searchInformationByRule();
-        echo "temperatura minima em Marilia: " . $a->getInformationsOfSearch()[0];
+        echo "temperatura minima em Marilia: " . $crawler->getInformationsOfSearch()[0];
     ?>
 ```
