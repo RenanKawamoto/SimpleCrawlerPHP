@@ -5,7 +5,7 @@
 ## Instalação via composer:
 - Shell:
 ```
-    composer require 'code-dragons/simple-crawler-php';
+    composer require code-dragons/simple-crawler-php;
 ```
 
 ## Requisitos:
