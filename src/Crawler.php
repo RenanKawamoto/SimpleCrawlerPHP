@@ -25,9 +25,7 @@ class Crawler
         {
             try
             {
-                $ch = curl_init($this->URL);
-                curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-                $html = curl_exec($ch);
+                $html = file_get_contents($this->URL);
         
                 $dom = new DOMDocument();
                 $dom->loadHTML($html);
